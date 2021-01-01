@@ -7,29 +7,31 @@
 </head>
   <body>
     <div class="container grid">
-      <div class="header">
+      <div class="header flex">
         <h1>Coin Flip</h1>
       </div>
 
-      <div class="flip-options">
+      <div class="flip-options flex">
         <button class="btn fair">Fair</button>
         <button class="btn bias">Bias</button>
       </div>
 
-      <div class="heads-input hidden">
+      <div class="input heads-input hidden flex">
         <h4>Heads</h4>
         <input type="text" class="heads">
       </div>
 
-      <img src="images/canada-1-dollar-front.jpg" class="coin-heads">
-      <img src="images/canada-1-dollar-back.jpg" class="coin-tails">
+      <div class="coin">
+        <img src="images/canada-1-dollar-front.jpg" class="coin-heads">
+        <img src="images/canada-1-dollar-back.jpg" class="coin-tails">
+      </div>
 
-      <div class="heads-input hidden">
+      <div class="input tails-input hidden flex">
         <h4>Tails</h4>
         <input type="text" class="tails">
       </div>
 
-      <div class="btn-long flip-btn">
+      <div class="btn btn-long flip-btn flex">
         <button class="flip">Flip!</button>
       </div>
     </div>
